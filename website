@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upstate Community Church</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upstate Community Church</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#values">Core Values</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Upstate Community Church</h2>
+        <p>Helping people pursue intentional living in Jesus.</p>
+    </section>
+
+    <section id="values">
+        <h2>Our Core Values</h2>
+        <ul>
+            <li>Grace - We value showing grace as a gift of love from God to humanity.</li>
+            <li>Outward Impact - We value helping everyday people live intentionally in the areas where we live, work, and play.</li>
+            <li>One at a Time - We value seeing the people that God has placed right in front of us.</li>
+            <li>Authentic Community - We grow in authentic environments alongside others who seek intentional living in Jesus.</li>
+            <li>Slowing Down - We value slowing down to see God’s hand at work in our lives.</li>
+            <li>Biblical Trust - We value the Bible as a trustworthy source of how we see the world and follow Jesus.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Upstate Community Church. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
